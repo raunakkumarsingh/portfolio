@@ -4,13 +4,14 @@ title: 'Portfolio'
 github: ''
 external: 'https://github.com/raunakkumarsingh/'
 tech:
-  - React
+  - gatsby
   - Styled Components
   - animeJS
-  - gatsby
   - GraphQL
 # company: 'Apple'
 showInProjects: true
 ---
+
+portfolio  is an online representation of work you have created, as well as your skills and experiences
 
 
