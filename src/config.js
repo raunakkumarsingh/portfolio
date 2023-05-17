@@ -7,20 +7,24 @@ module.exports = {
       url: 'https://github.com/raunakkumarsingh',
     },
     {
+      name: 'Codeforces',
+      url: 'https://codeforces.com/profile/RAUNAK554',
+    },
+    {
+      name: 'Codechef',
+      url: 'https://www.codechef.com/users/linux_c0der',
+    },
+    {
+      name: 'Leetcode',
+      url: 'https://leetcode.com/Raunak554/',
+    },
+    {
       name: 'Instagram',
       url: 'https://www.instagram.com/raunakkumar554/',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/RaunakK40153134',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/raunak554/',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/raunakkumarsingh',
     },
   ],
 

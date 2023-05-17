@@ -64,9 +64,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a 3rd year Student at Indian Institite of Information Technology, 
-        pursuing my BTech in Computer Science Engineering.
-        
+        I’m a 4th year Student at Indian Institite of Information Technology, pursuing my BTech
+        undergraduate in Computer Science Engineering.
         {/* at{' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement

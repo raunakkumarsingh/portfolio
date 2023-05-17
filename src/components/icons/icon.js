@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import {
   IconAppStore,
   IconBookmark,
-  IconCodepen,
+  IconCodeforces,
+  IconCodechef,
   IconExternal,
   IconFolder,
   IconFork,
@@ -14,7 +15,7 @@ import {
   IconLogo,
   IconPlayStore,
   IconStar,
-  IconTwitter,
+  IconLeetcode,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -23,8 +24,10 @@ const Icon = ({ name }) => {
       return <IconAppStore />;
     case 'Bookmark':
       return <IconBookmark />;
-    case 'Codepen':
-      return <IconCodepen />;
+    case 'Codeforces':
+      return <IconCodeforces />;
+    case 'Codechef':
+      return <IconCodechef />;
     case 'External':
       return <IconExternal />;
     case 'Folder':
@@ -45,8 +48,8 @@ const Icon = ({ name }) => {
       return <IconPlayStore />;
     case 'Star':
       return <IconStar />;
-    case 'Twitter':
-      return <IconTwitter />;
+    case 'Leetcode':
+      return <IconLeetcode />;
     default:
       return <IconExternal />;
   }

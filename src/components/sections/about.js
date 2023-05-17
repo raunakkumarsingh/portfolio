@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React','Node','Web3','Solidity', 'Hardhat', 'Ether.js', 'Ethereum'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'React',
+    'Node',
+    'Web3',
+    'Solidity',
+    'Hardhat',
+    'Ether.js',
+    'Ethereum',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,17 +144,19 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Raunak Kumar Singh and I enjoy creating things that live on the internet. My
-              interest in Blockchain development.  
+              Hello! My name is Raunak Kumar Singh and I enjoy creating things that live on the
+              internet. My interest in Blockchain development.
             </p>
 
             <p>
-            I am a full-stack web-developer with a solid background in diffrent programing areas.Looking to take a part in a challenging project related to blockchain and cryptocurrencies.i have good understanding of decentralized technology such as Ethereum, Bitcoin and Hardhat.I have a lot of experience and  practical expertise in smart contract development
+              I am a full-stack web-developer with a solid background in different programing
+              areas.Looking to take a part in a challenging project related to blockchain and
+              cryptocurrencies.i have good understanding of decentralized technology such as
+              Ethereum, Bitcoin and Hardhat.I have a lot of experience and practical expertise in
+              smart contract development
             </p>
 
-            <p>
-             
-            </p>
+            <p></p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
