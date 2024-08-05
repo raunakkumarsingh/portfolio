@@ -1,25 +1,37 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Apple from "./works/TechClub";
-import Google from "./works/BitworkLab";
-import ReactBD from "./works/Cdac";
+import Techclub from "./works/TechClub";
+import Bitwork from "./works/BitworkLab";
+import CDAC from "./works/Cdac";
+import FACTSH from "./works/Factsh";
+
 
 
 const Experience = () => {
   const [Cdac, setCdac] = useState(true);
+  const [Factsh, setFactsh] = useState(false);
   const [BitworkLab, setBitworkLab] = useState(false);
   const [TechnicalClub, setTechnicalClub] = useState(false);
  
 
   const handleCdac = () => {
     setCdac(true);
+    setFactsh(false);
     setBitworkLab(false);
     setTechnicalClub(false);
    
   };
 
+  const handleFactsh = () => {
+    setCdac(false);
+    setFactsh(true);
+    setBitworkLab(false);
+    setTechnicalClub(false);
+    
+  };
   const handleBitwork = () => {
     setCdac(false);
+    setFactsh(false);
     setBitworkLab(true);
     setTechnicalClub(false);
     
@@ -27,6 +39,7 @@ const Experience = () => {
 
   const handleTechClub = () => {
     setCdac(false);
+    setFactsh(false);
     setBitworkLab(false);
     setTechnicalClub(true);
   };
@@ -50,6 +63,16 @@ const Experience = () => {
             CDAC
           </li>
           <li
+            onClick={handleFactsh}
+            className={`${
+              Factsh
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            FACTS-H
+          </li>
+          <li
             onClick={handleBitwork}
             className={`${
               BitworkLab
@@ -71,9 +94,10 @@ const Experience = () => {
           </li>
          
         </ul>
-        {Cdac && <ReactBD />}
-        {BitworkLab && <Google />}
-        {TechnicalClub && <Apple />}
+        {Cdac && <CDAC />}
+        {Factsh && <FACTSH />}
+        {BitworkLab && <Bitwork />}
+        {TechnicalClub && <Techclub />}
         
       </div>
     </section>
