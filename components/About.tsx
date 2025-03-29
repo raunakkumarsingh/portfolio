@@ -13,63 +13,125 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          Hello! My name is Raunak Kumar Singh and I enjoy creating things that live on the internet. My interest in Blockchain development.
+            Hello! My name is Raunak Kumar Singh, and I am a passionate Software Engineer with a strong foundation in Computer Science and Engineering. I enjoy creating innovative solutions and exploring cutting-edge technologies, particularly in the fields of Blockchain, Generative AI, and Quantum Computing.
           </p>
           <p>
-          I am a Software Engineer with a solid background in different programing areas.Looking to take a part in a challenging project related to blockchain and cryptocurrencies.i have good understanding of decentralized technology such as  <span className="text-textGreen"> Ethereum</span> and Hardhat.I have a lot of experience and practical expertise in smart contract development
+            I have hands-on experience in developing decentralized applications, smart contracts, and AI-powered tools. My expertise spans across various domains, including Blockchain, AI/ML, and full-stack development. I am always eager to take on challenging projects that push the boundaries of technology.
           </p>
-          
-          <p>Here are a few technologies I have been working with recently:</p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
+          <p>
+            In the AI domain, I have worked extensively on Generative AI, LLM fine-tuning, OCR systems like PaddleOCR and EasyOCR, and real-time object detection using YOLOv8. I have also developed AI-powered tools such as medical data extraction systems, chatbots, and video narration tools, leveraging models like LLaMA, Qwen, and OpenAI API.
+          </p>
+          <p>Here are a few technologies and tools I have been working with recently:</p>
+            <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              C++
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
+              </span>
+              Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              JavaScript
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
               </span>
               Next.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              React
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
               </span>
               Node.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
               </span>
-              TypeScript
+              GenAI
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
               </span>
-              Express.js
+              OCR
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
               </span>
-              MongoDB
+              ML
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+              <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Prompt&nbsp;Engineering
             </li>
-          </ul>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              Fine-tuning
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              YOLO
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              Nginx
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              LLaMA
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              DBMS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              Docker
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              Ollama
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              TTS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+              <AiFillThunderbolt />
+              </span>
+              Docker
+            </li>
+            </ul>
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">

@@ -31,7 +31,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I Completed my BTech in Computer Science from IIIT Kottayam . Currently, Working as a  Project Engineer at CDAC in Quantum Computing team
+        I graduated from IIIT Kottayam with a B.Tech in Computer Science & Engineering. Currently, I work as a Software Developer at DIGIQUANTA, specializing in AI/ML, LLM fine-tuning, OCR, and Generative AI.
       
       </motion.p>
       <CalendlyWidget />
